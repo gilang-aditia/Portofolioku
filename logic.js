@@ -132,9 +132,9 @@ $("body").terminal(
         <br>
         Mail :<span style="color:green;"> gaditia744@gmail.com</span>
         <br>
-        Github : <span style="color:green;"> <a href="https://github.com/gilang-aditia" </span>(<span>enter</span> go github)</span>
+        Github : <span style="color:green;"> <a href="https://github.com/gilang-aditia" </span>(<span class="cmd">enter</span> go github)</span>
         <br>
-        Linkedin : <span style="color:;"> <a href="https://www.linkedin.com/in/gilang-aditia-b79461231/" </span>(<span>enter</span> go linkedin)</span>
+        Linkedin : <span style="color:green;"> <a href="https://www.linkedin.com/in/gilang-aditia-b79461231/" </span>(<span class="cmd">enter</span> go linkedin)</span>
         `);
       const banner = `${color("yellow", contact_banner)}`;
       this.echo(banner);
@@ -168,11 +168,11 @@ $("body").terminal(
     src: function () {
       const src = $(`
       <h2>my_project Programming:$<span class="cursor">|</span></h2>
-        SDN 1 Teluk Purwokerto : <span class"cmd"> <a href="https://developer-tim-sdn1-teluk.github.io/SD-Negeri-1-Teluk/" </span>(<span class="loh">enter</span> go Project)</span>
+        SDN 1 Teluk Purwokerto : <span style="color:green;"> <a href="https://developer-tim-sdn1-teluk.github.io/SD-Negeri-1-Teluk/" </span>(<span class="cmd">enter</span> go Project)</span>
         <br>
-        Ssayomart : <span class"cmd"> <a href="https://apps.ssayomart.com/" </span>(<span class="loh">enter</span> go Project)</span>
+        Ssayomart : <span style="color:green;"> <a href="https://apps.ssayomart.com/" </span>(<span class="cmd">enter</span> go Project)</span>
         <br>
-        Compro Ssayomart : <span class"cmd"> <a href="https://web.ssayomart.com/" </span>(<span class="loh">enter</span> go Project)</span>
+        Compro Ssayomart : <span style="color:green;"> <a href="https://web.ssayomart.com/" </span>(<span class="cmd">enter</span> go Project)</span>
         `);
       const banner = `${color("blue", src_banner)}`;
       this.echo(banner);
@@ -209,11 +209,11 @@ $("body").terminal(
                       ▒▒▒▒▒▒▒▒▀▄▒▒▒▒▒▒▒▒▀▀▀▀▒▒▒▄▀
 
                         Hello User! I am Gilang
-                     Use help command to get help
+                     Use "help" command to get help
 
     `,
     prompt() {
-      return `┌──(${color("green", "Gilang")}${color("white", "@Terminal")})-[${color(
+      return `┌──(${color("green", "Gilang")}${color("yellow", "@Terminal")})-[${color(
         "blue",
         "~/"
       )}]
