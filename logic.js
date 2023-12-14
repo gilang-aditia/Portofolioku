@@ -167,12 +167,19 @@ $("body").terminal(
     // src
     src: function () {
       const src = $(`
-      <h2>my_project Programming:$<span class="cursor">|</span></h2>
+      <h2>my_project Best Programming:$<span class="cursor">|</span></h2>
         SDN 1 Teluk Purwokerto : <span style="color:green;"> <a href="https://developer-tim-sdn1-teluk.github.io/SD-Negeri-1-Teluk/" </span>(<span class="cmd">enter</span> go Project)</span>
         <br>
         Ssayomart : <span style="color:green;"> <a href="https://apps.ssayomart.com/" </span>(<span class="cmd">enter</span> go Project)</span>
         <br>
         Compro Ssayomart : <span style="color:green;"> <a href="https://web.ssayomart.com/" </span>(<span class="cmd">enter</span> go Project)</span>
+      <h1>other programming sourrce code projects:$<span class="cursor" style"color: white;">|</span></h1>
+        Booking Room : <span style="color:green;"> <a href="https://github.com/gilang-aditia/bookingroom.git" </span>(<span class="cmd">enter</span> go Project)</span>
+          <br>  
+        Forsas : <span style="color:green;"> <a href="https://github.com/gilang-aditia/Forsas.git" </span>(<span class="cmd">enter</span> go Project)</span>
+          <br>
+        FilosofiKopi : <span style="color:green;"> <a href="https://github.com/gilang-aditia/filosofikopi.git" </span>(<span class="cmd">enter</span> go Project)</span>
+          <br>
         `);
       const banner = `${color("blue", src_banner)}`;
       this.echo(banner);
