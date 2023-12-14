@@ -180,7 +180,13 @@ $("body").terminal(
     ui: function () {
       const ui = $(`
       <h2>my_project UI/UX Designer & Research:$<span class="cursor">|</span></h2>
-        SDN 1 Teluk Purwokerto : <span style="color:green;"> <a href="https://developer-tim-sdn1-teluk.github.io/SD-Negeri-1-Teluk/" </span>(<span class="cmd">enter</span> go Project)</span>
+        UI Gotop : <span style="color:green;"> <a href="https://www.figma.com/file/zMlFF8vDUEL7r7d6nhAzrg/GOTOP?type=design&node-id=695%3A4181&mode=design&t=qKPf3esybypx1JbS-1" </span>(<span class="cmd">enter</span> go Project)</span>
+        <br>
+        UI Sedia.id : <span style="color:green;"> <a href="https://www.figma.com/file/3bco9kwkznfh4CsHqUy7sX/SEDIA.id?type=design&node-id=0%3A1&mode=design&t=DOweKiZH7BOW17AW-1" </span>(<span class="cmd">enter</span> go Project)</span>
+        <br>
+        UI Officely : <span style="color:green;"> <a href="https://www.figma.com/file/v3T7snuyNPpwaBRnPHxdHO/Team-UI%2FUX?type=design&node-id=199%3A1983&mode=design&t=vMtQ4gO6YkHM5vHC-1" </span>(<span class="cmd">enter</span> go Project)</span>
+        <br>
+        UI ELEK.Co : <span style="color:green;"> <a href="https://www.figma.com/file/HpRcDSs2wzHOrDnDkFpOwH/Elek?type=design&node-id=0%3A1&mode=design&t=pR2DGFITr3DbKST1-1" </span>(<span class="cmd">enter</span> go Project)</span>
         <br>
         
         `);
