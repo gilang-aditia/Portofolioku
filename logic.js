@@ -192,6 +192,8 @@ $("body").terminal(
     src: function () {
       const src = $(`
       <h2>my_project Best Programming:$<span class="cursor">|</span></h2>
+      PT Boga Eterna : <span style="color:green;"> <a href="https://gilang-aditia.github.io/PT_Boga/" </span>(<span class="cmd">enter</span> go Project)</span>
+        <br>
         SDN 1 Teluk Purwokerto : <span style="color:green;"> <a href="https://developer-tim-sdn1-teluk.github.io/SD-Negeri-1-Teluk/" </span>(<span class="cmd">enter</span> go Project)</span>
         <br>
         Ssayomart : <span style="color:green;"> <a href="https://apps.ssayomart.com/" </span>(<span class="cmd">enter</span> go Project)</span>
