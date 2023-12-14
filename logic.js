@@ -42,6 +42,16 @@ const date_banner = `
 ╚═════╝░╚═╝░░╚═╝░░░╚═╝░░░╚══════╝                              
 `;
 
+const UI_banner = `
+
+██╗░░░██╗██╗░░░░██╗██╗░░░██╗██╗░░██╗  ██████╗░███████╗░██████╗██╗░██████╗░███╗░░██╗███████╗██████╗░
+██║░░░██║██║░░░██╔╝██║░░░██║╚██╗██╔╝  ██╔══██╗██╔════╝██╔════╝██║██╔════╝░████╗░██║██╔════╝██╔══██╗
+██║░░░██║██║░░██╔╝░██║░░░██║░╚███╔╝░  ██║░░██║█████╗░░╚█████╗░██║██║░░██╗░██╔██╗██║█████╗░░██████╔╝
+██║░░░██║██║░██╔╝░░██║░░░██║░██╔██╗░  ██║░░██║██╔══╝░░░╚═══██╗██║██║░░╚██╗██║╚████║██╔══╝░░██╔══██╗
+╚██████╔╝██║██╔╝░░░╚██████╔╝██╔╝╚██╗  ██████╔╝███████╗██████╔╝██║╚██████╔╝██║░╚███║███████╗██║░░██║
+░╚═════╝░╚═╝╚═╝░░░░░╚═════╝░╚═╝░░╚═╝  ╚═════╝░╚══════╝╚═════╝░╚═╝░╚═════╝░╚═╝░░╚══╝╚══════╝╚═╝░░╚═╝                              
+`;
+
 
 const go_url = (url) => {
   const a = document.createElement("a");
@@ -93,6 +103,8 @@ $("body").terminal(
         <span class="cmd">ping</span> => use to check your internet connection...
         <br>  
         <span class="cmd">date</span> => use to know current date-time
+        <br>
+        <span class="cmd">ui</span> => use to get Desain UI/UX of this project
         <br>
         <span class="cmd">src</span> => use to get source code of this project
         <br>
@@ -163,6 +175,18 @@ $("body").terminal(
         const istato = `${color("red", "Disconnected...so sad!!!")}`;
         this.echo(istato);
       }
+    },
+    // UI
+    ui: function () {
+      const ui = $(`
+      <h2>my_project UI/UX Designer & Research:$<span class="cursor">|</span></h2>
+        SDN 1 Teluk Purwokerto : <span style="color:green;"> <a href="https://developer-tim-sdn1-teluk.github.io/SD-Negeri-1-Teluk/" </span>(<span class="cmd">enter</span> go Project)</span>
+        <br>
+        
+        `);
+      const banner = `${color("green", UI_banner)}`;
+      this.echo(banner);
+      this.echo(ui);
     },
     // src
     src: function () {
