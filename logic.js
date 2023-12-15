@@ -259,6 +259,9 @@ $("body").terminal(
 
                             Hello User! I am Gilang
                       Use "help" command to get view "menu"
+                      
+                      ProtonMail : Gilang-aditia@proton.me
+                          Mail : gaditia744@gmail.com
 
     `,
     prompt() {
