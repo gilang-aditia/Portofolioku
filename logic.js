@@ -128,6 +128,8 @@ $("body").terminal(
         <br>
         Description : Someone who works in the field of programming or more precisely as a Frontend Developer,<span style="color:aqua;"> I also have experience in the field of UI/UX Designer</span>.
         <br>
+        protonmail :<span style="color:green;"> Gilang-aditia@proton.me</span>
+        <br>
         Mail :<span style="color:green;"> gaditia744@gmail.com</span>
         <br>
         Github : <span style="color:green;"> <a href="https://github.com/gilang-aditia" </span>(<span class="cmd">enter</span> go github)</span>
