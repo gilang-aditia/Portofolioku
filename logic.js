@@ -204,9 +204,9 @@ $("body").terminal(
         <br>
         SDN 1 Teluk Purwokerto : <span style="color:green;"> <a href="https://developer-tim-sdn1-teluk.github.io/SD-Negeri-1-Teluk/" </span>(<span class="cmd">enter</span> go Project)</span>
         <br>
-        Ssayomart : <span style="color:green;"> <a href="https://apps.ssayomart.com/" </span>(<span class="cmd">enter</span> go Project)</span>
+        Ssayomart : <span style="color:green;"> <a href="https://ssayomart.com/" </span>(<span class="cmd">enter</span> go Project)</span>
         <br>
-        Compro Ssayomart : <span style="color:green;"> <a href="https://web.ssayomart.com/" </span>(<span class="cmd">enter</span> go Project)</span>
+        Compro Ssayomart : <span style="color:green;"> <a href="https://ssayomart.com/" </span>(<span class="cmd">enter</span> go Project)</span>
       <h1>other programming sourrce code projects:$<span class="cursor" style"color: white;">|</span></h1>
         Booking Room : <span style="color:green;"> <a href="https://github.com/gilang-aditia/bookingroom.git" </span>(<span class="cmd">enter</span> go Project)</span>
           <br>  
